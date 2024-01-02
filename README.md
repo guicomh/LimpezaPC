@@ -10,3 +10,9 @@ Clean Magico é uma aplicação simples para limpeza de diretórios temporários
 
   ```bash
   git clone https://github.com/guicomh/LimpezaPC.git
+
+- Execute o .exe:
+- Execute a aplicação usando o Python:
+
+  ```bash
+  python main.py
