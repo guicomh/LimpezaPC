@@ -4,7 +4,7 @@ from tkinter import ttk
 
 def limpar_temp():
     os.system("rd/s/q %temp%")
-    os.system("cd.. && cd.. & cd.. && cd.. && cd C:\Windows\Temp && rd/s/q temp")
+    os.system("cd .. && cd .. & cd.. && cd.. && cd .. && cd .. && cd .. && cd Windows && rd/s/q temp")
 
 janela = Tk()
 
@@ -14,6 +14,6 @@ fonte_personalizada = ("Arial", 20, "bold")
 
 texto = Label(janela, text="CLEAN MAGICO 1.0", font=fonte_personalizada) . pack(pady=30)
 
-botão_limpeza = Button(janela, text="Limpar", command=limpar_temp). pack(pady=20)
+botão_limpeza = Button(janela, text="Limpar", command=limpar_temp, font=("Arial", 12, "bold")). pack(pady=20)
 
 janela.mainloop()
