@@ -20,5 +20,4 @@ texto = Label(janela, text="CLEAN MAGICO 1.0", font=fonte_personalizada) . pack(
 botão_limpeza = Button(janela, text="Limpar", command=limpar_temp, font=("Arial", 12, "bold")) . pack(pady=20)
 
 
-
 janela.mainloop()
