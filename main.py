@@ -8,7 +8,7 @@ def limpar_temp():
 
 janela = Tk()
 
-janela.iconbitmap("icone.ico")
+#janela.iconbitmap("icone.ico")
 janela.title("Clean Magico")
 janela.geometry("800x600")
 fonte_personalizada = ("Arial", 20, "bold")
