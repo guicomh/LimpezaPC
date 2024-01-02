@@ -8,6 +8,8 @@ def limpar_temp():
 
 janela = Tk()
 
+janela.grid(column=0, row=1, padx= 800, pady= 600)
+
 janela.title("Clean Magico")
 janela.geometry("800x600")
 fonte_personalizada = ("Arial", 20, "bold")
