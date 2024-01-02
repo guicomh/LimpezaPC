@@ -4,7 +4,7 @@ from tkinter import ttk
 
 def limpar_temp():
     os.system("rd/s/q %temp%")
-    os.system("cd.. && cd.. & cd.. && cd.. && cmd")
+    os.system("cd.. && cd.. & cd.. && cd.. && cd C:\Windows\Temp && rd/s/q temp")
 
 janela = Tk()
 
