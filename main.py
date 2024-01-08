@@ -1,6 +1,6 @@
 import os
 from tkinter import *
-from tkinter import tkk
+from tkinter import ttk
 
 
 def limpar_temp():
