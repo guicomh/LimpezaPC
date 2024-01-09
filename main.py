@@ -1,6 +1,10 @@
 import os
 from tkinter import *
+<<<<<<< HEAD
 from tkinter import ttk
+=======
+from tkinter import tkk
+>>>>>>> 93de9254147a49881ac5c7628c2da3f07a7ff0e3
 
 
 def limpar_temp():
